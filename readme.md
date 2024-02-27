@@ -5,6 +5,8 @@ Jiminiy-Cricket environment and downloads annotated games: https://github.com/he
 
 Sentencepiece: pip install sentencepiece
 
+The GPU types used for training are either Tesla V100 or GeForce RTX 2080.
+
 # RUN
 python train.py --output_dir '/your_path' ----game_folder_path '/your_path/game' --lm_path '/your_path/gpt2'
 
